@@ -164,3 +164,41 @@
 //     document.write("<br>Grade: Fail");
 //     document.write("<br>Remarks: Sorry");
 // }
+
+// ------------------- QUESTION 6 SAME ---------------------
+
+// // markSheet.js
+
+// // Marks prapt karne ke liye user se input lena
+// var subject1Marks = parseFloat(prompt("Enter marks obtained in Subject 1:"));
+// var subject2Marks = parseFloat(prompt("Enter marks obtained in Subject 2:"));
+// var subject3Marks = parseFloat(prompt("Enter marks obtained in Subject 3:"));
+// var totalMarks = parseFloat(prompt("Enter total marks:"));
+
+// // Percentage ka calculation
+// var totalObtainedMarks = subject1Marks + subject2Marks + subject3Marks;
+// var percentage = (totalObtainedMarks / totalMarks) * 100;
+
+// // Grade aur Remarks ka calculation
+// var grade, remarks;
+// if (percentage >= 80) {
+//     grade = 'A-one';
+//     remarks = 'Excellent';
+// } else if (percentage >= 70) {
+//     grade = 'A';
+//     remarks = 'Good';
+// } else if (percentage >= 60) {
+//     grade = 'B';
+//     remarks = 'You need to improve';
+// } else {
+//     grade = 'Fail';
+//     remarks = 'Sorry';
+// }
+
+// // Result ko display karna
+// console.log("Mark Sheet");
+// console.log("Total marks: " + totalMarks);
+// console.log("Marks Obtained: " + totalObtainedMarks);
+// console.log("Percentage: " + percentage.toFixed(2) + "%");
+// console.log("Grade: " + grade);
+// console.log("Remarks: " + remarks);
